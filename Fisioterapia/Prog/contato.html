@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="contato.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bungee&family=Cardo:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400..900&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Gravitas+One&family=Orbitron:wght@400..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Slabo+27px&family=Smooch+Sans:wght@100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+
+            <img src="../IMG/Logo.png" alt="Logo da Fisiotech" class="logo">
+
+            <button class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="menu-links">
+                <li> <a href="../index.html">Início</a></li>
+                <li> <a href="../index.html#sobre">Sobre Nós</a> </li>
+                <li><a href="../index.html#especialidade">Especialidades</a> </li>
+                <li> <a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="inicio" id="inicio">
+
+            <h1 class="inicio-titulo">
+                Entre em contato e encontre o tratamento ideal para<span> você</span>.
+            </h1>
+            <p class="inicio-paragrafo">
+                Dê o primeiro passo para uma nova fase.
+            </p>
+            <a href="#formulario" class="seta-baixo">
+                <i class="fa-solid fa-chevron-down seta-baixo"></i>
+            </a>
+        </section>
+
+        <section class="contato">
+
+            <div class="contato-container">
+
+                <div class="contato-info">
+                    <h2 class="contato-titulo">Agende sua avaliação</h2>
+                    <p>
+                        Preencha o formulário e nossa equipe entrará em contato.
+                    </p>
+                </div>
+
+                <form class="formulario" id="formulario">
+
+                    <div class="campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" placeholder="Digite seu nome " required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" placeholder="Digite seu telefone " required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" placeholder="Digite seu email " required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="especialidade">Especialidade:</label>
+                        <select name="especialidade" id="especialidade" required>
+                            <option value="">Selecione uma especialidade</option>
+                            <option value="prot">Reabilitação com Próteses Tecnológicas</option>
+                            <option value="pedi">Fisioterapia Pediátrica</option>
+                            <option value="pos">Reabilitação Pós-operatória</option>
+                            <option value="sport">Fisioterapia Esportiva</option>
+                            <option value="neuro">Fisioterapia Neurológica</option>
+                            <option value="3d">Próteses Personalizadas em 3D</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <label for="mensagem">Mensagem: </label>
+                        <textarea id="mensagem" placeholder="Digite sua mensagem (Não é obrigatório)"></textarea>
+                    </div>
+
+                    <button type="submit">
+                        Enviar mensagem
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Copyright 2026
+            <i class="fa-regular fa-copyright"></i>
+            Feito por Sofia Pereira
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
