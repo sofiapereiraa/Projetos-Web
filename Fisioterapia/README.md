@@ -22,6 +22,13 @@ O projeto apresenta uma página institucional com informações sobre a clínica
 
 ---
 
+## 🌐 Demonstração
+
+Acesse o projeto online:
+
+🔗 [FisioTech - Clínica de Fisioterapia](https://sofiapereiraa.github.io/FISIOTECH/)
+
+---
 ## 💻 Como executar
 
 1. Clone o repositório:
