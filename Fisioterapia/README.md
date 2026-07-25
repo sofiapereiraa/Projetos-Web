@@ -22,17 +22,6 @@ O projeto apresenta uma página institucional com informações sobre a clínica
 
 ---
 
-## ✨ Funcionalidades
-
-- ✅ Layout responsivo para desktop e mobile
-- ✅ Menu hamburguer para dispositivos móveis
-- ✅ Navegação entre seções
-- ✅ Formulário de contato com validação
-- ✅ Animações e efeitos visuais
-- ✅ Cards de especialidades
-
----
-
 ## 💻 Como executar
 
 1. Clone o repositório:
