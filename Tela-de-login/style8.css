@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(192,192, 192);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  width: 1000px;
+  height: 500px;
+
+}
+
+.coluna1 {
+  padding: 20px;
+  background-color:#2F4F4F;
+  justify-content: center;
+  border-radius: 4px;
+
+}
+.coluna2 {
+ justify-content: center;
+ border-radius: 4px;
+  background-color:rgb(220, 220, 220);
+
+}
+.colunaPrimaria {
+    font-family: American Typewriter, serif;
+    text-align: center;
+    font-size: 38px;
+    color: white;
+
+}
+
+#texto1{
+    font-size: 20px;
+    text-align: center;
+    font-family: Courier New, monospace;
+    color: white;
+    text-align: center;
+}
+.botao {
+  border-radius: 20px;
+  margin: 20px auto;
+  padding: 20px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;  
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(220, 220, 220)
+}
+ 
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-btn {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 14px;
+  background:#2F4F4F;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-btn i {
+  font-size: 20px;
+}
+
+.Parte2 {
+    font-family: American Typewriter, serif;
+    text-align: center;
+    font-size: 38px;
+    color: #2F4F4F;
+}
+
+#texto2 {
+    font-size: 16px;
+    text-align: center;
+    font-family: Courier New, monospace;
+    color: black;
+    text-align: center;
+}
+
+form {
+    width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.coluna2 {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.botao2 {
+     border-radius: 20px;
+  margin: 20px auto;
+  padding: 20px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;  
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(220, 220, 220)
+}
