@@ -12,12 +12,12 @@ Landing page desenvolvida para uma clínica fictícia de fisioterapia.
 
 ### 🚀 Funcionalidades
 
--Página inicial com apresentação da clínica
--Seção de especialidades
--Menu de navegação
--Página de contato
--Layout responsivo
--Ícones e fontes personalizadas
+- Página inicial com apresentação da clínica
+- Seção de especialidades
+- Menu de navegação
+- Página de contato
+- Layout responsivo
+- Ícones e fontes personalizadas
 
 ### 🛠 Tecnologias
 
