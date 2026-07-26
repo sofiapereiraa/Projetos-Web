@@ -27,6 +27,13 @@ Landing page desenvolvida para uma clínica fictícia de fisioterapia.
 
 ---
 
+Acesse o projeto online:
+
+🔗 [FisioTech - Clínica de Fisioterapia](https://sofiapereiraa.github.io/FISIOTECH/)
+
+
+---
+
 ## 🌴 Floripa - Site sobre Florianópolis
 
 Site institucional desenvolvido para apresentar a cidade de Florianópolis, destacando sua história, cultura e principais pontos turísticos.
