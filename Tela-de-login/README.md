@@ -6,7 +6,7 @@ Projeto de uma tela de login simples desenvolvida com HTML e CSS, com foco em pr
 
 ## 📸 Preview
 
-![FisioTech Preview](Login.png)
+![Tela de login Preview](Login.png)
 ## 🌐 Acesse o projeto
 
 👉 Para acessar a página, utilize o link abaixo:
