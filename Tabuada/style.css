@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(180deg,
+            #2f3528 0%,
+            #49513c 40%,
+            #6f7761 70%,
+            #959e86 100%);
+    text-align: center;
+    padding: 2rem;
+    min-height: 100vh;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display SC", serif;
+}
+
+
+h2 {
+    margin-top: 1rem;
+
+}
+
+#multi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: rgba(58, 64, 52, 0.85);
+    backdrop-filter: blur(8px);
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+    max-width: 300px;
+    border-color: rgb(255, 255, 255);
+    border: 5px solid;
+
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin: 0 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.form label {
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+     
+   
+}
+
+.form input {
+    margin-bottom: 1rem;
+    flex: 1;
+    padding: 0.6rem 0.4rem;
+    border: 1px solid #333;
+    width: 80px;
+    border-radius: 5px;
+   text-align: center;
+
+    
+}
+
+input[type="submit"] {
+    padding: 0.6rem 1.2rem;
+    background-color: #333;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    max-height: 50px;
+    width: 200px;
+    font-weight: bold;
+}
+
+#multi2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+ gap: 10px;
+}
+
+
+#op {
+    display: flex;
+    max-width: 300px;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    background-color: rgba(58, 64, 52, 0.85);
+}
+
+#op .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    font-size: 1rem;
+}
+
+#op .row:last-child {
+    border-bottom: none;
+}

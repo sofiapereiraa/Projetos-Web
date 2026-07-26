@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <script src="script.js" defer></script>
+    
+    <link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee&family=Cinzel:wght@400..900&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Gravitas+One&family=Orbitron:wght@400..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Quicksand:wght@300..700&family=Slabo+27px&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1>Digite o número e confirme para gerar a tabuada</h1>
+
+  <form id="multi">
+
+    <div id="multi2">
+      
+      <div class="form">
+        <label for="num">Tabuada do:</label>
+        <input type="number" name="num" id="num" placeholder="3">
+      </div>
+
+      <div class="form">
+        <label for="num2">Multiplicador:</label>
+        <input type="number" name="num2" id="num2" value="10">
+      </div>
+
+    </div>
+
+    <input type="submit" value="Calcular">
+
+  </form>
+
+  <div id="mult2">
+    <h1 id="titulo-tabuada">
+      Tabuada do número: <span></span>
+    </h1>
+
+    <div id="op">
+      <p>Informe um número para gerar a tabuada.</p>
+      <div class="row"></div>
+      <div class="op2"> </div>
+      <div class="result"></div>
+    </div>
+  </div>
+
+</body>
+</html>
