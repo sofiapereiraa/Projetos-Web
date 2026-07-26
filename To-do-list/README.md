@@ -24,4 +24,10 @@ Projeto de lista de tarefas com armazenamento local no navegador.
 - HTML  
 - CSS  
 - JavaScript  
-- LocalStorage (Web API)  
+- LocalStorage (Web API)
+
+  ---
+
+  ## 📸 Preview
+
+![Lista Preview](Lista.png)
