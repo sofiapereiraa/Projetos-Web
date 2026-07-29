@@ -285,7 +285,6 @@ html {
         background-color: var(--Fundo);
         border-radius: 20px;
         overflow: hidden;
-        /* importante */
         box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
 
