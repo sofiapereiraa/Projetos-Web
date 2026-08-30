@@ -3,6 +3,22 @@
 Repositório com projetos de desenvolvimento web utilizando **HTML, CSS e JavaScript**. 
 
 ---
+##  Portfólio Pessoal
+
+Portfólio desenvolvido para apresentar minha trajetória, habilidades e projetos na área de tecnologia.
+
+🔗 [Acesse o portfólio](https://sofiapereiraa.github.io/Portifolio-2.0/)
+
+### 🛠️ Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome
+- Google Fonts
+- Git e GitHub
+
+---
 
 # 📂 Projetos
 
