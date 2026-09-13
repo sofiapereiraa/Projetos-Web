@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bungee&family=Cardo:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400..900&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Gravitas+One&family=Orbitron:wght@400..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Slabo+27px&family=Smooch+Sans:wght@100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+    --primary-color: #081131;
+    --secondary-color: #0F1A45;
+    --background-color: #F5F7FA;
+    --text-color: #081131;
+    --white: #FFFFFF;
+    --verde-brasil: #009739;
+    --amarelo-brasil: #F5C400;
+    --menu-color: #E8EBF5;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+}
+
+nav {
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 30px;
+    padding: 0px 40px 10px 0px;
+    position: relative;
+}
+
+nav a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: var(--primary-color);
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 4%;
+    background-color: white;
+}
+
+
+.menu-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-right: 40px;
+}
+
+.menu-pequeno {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.atletas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    min-height: calc(100vh - 96px);
+    padding: 32px 4% 0;
+}
+
+.atletas-texto {
+    width: 30%;
+    margin-top: auto;
+
+    h2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 60px;
+        color: var(--primary-color);
+    }
+
+    p {
+        font-size: 18px;
+        font-family: "Cinzel", serif;
+    }
+
+    span {
+        color: var(--verde-brasil);
+    }
+
+}
+
+.atletas-texto h2 {
+    transition: 0.3s;
+}
+
+.atletas-texto h2:hover {
+    letter-spacing: 3px;
+}
+
+
+.atletas-imagem {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.atletas-imagem img {
+    width: 100%;
+    max-width: 340px;
+    display: block;
+    transition: 0.3s ease;
+}
+
+
+.atletas-imagem img:hover {
+    transform: translateY(-10px);
+}
+
+
+.atletas2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    min-height: calc(100vh - 96px);
+    padding: 32px 4% 0;
+    background-color: var(--secondary-color);
+}
+
+.atletas2-texto {
+    width: 30%;
+    margin-top: auto;
+
+    h2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 60px;
+        color: var(--menu-color);
+    }
+
+    p {
+        font-size: 18px;
+        font-family: "Cinzel", serif;
+        color: var(--menu-color);
+
+    }
+
+    span {
+        color: var(--amarelo-brasil);
+    }
+
+}
+
+.atletas2-texto h2 {
+    transition: 0.3s;
+}
+
+.atletas2-texto h2:hover {
+    letter-spacing: 3px;
+}
+
+.atletas2-imagem {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+
+}
+
+.atletas2-imagem img {
+    width: 100%;
+    max-width: 340px;
+    display: block;
+    transition: 0.3s ease;
+}
+
+.atletas2-imagem img:hover {
+    transform: translateY(-10px);
+}
+
+
+.atletas-texto.esquerda {
+    transform: translateY(-120px);
+    margin-left: 50px
+}
+
+.atletas-texto.direita {
+    transform: translateY(-82px);
+}
+
+@media (max-width: 600px) {
+
+    .menu {
+        padding: 10px 5%;
+        justify-content: left;
+    }
+
+    .menu-pequeno {
+        display: block;
+    }
+
+    .menu-links {
+        display: none;
+    }
+
+    .menu-links.ativo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-links a {
+        margin-right: 8px;
+    }
+
+    .inicio {
+        min-height: 80vh;
+        padding: 30px 6%;
+    }
+
+    .inicio-titulo {
+        font-size: clamp(2.2rem, 12vw, 3.5rem);
+        max-width: 100%;
+        line-height: 1.1;
+    }
+
+    .inicio-paragrafo {
+        font-size: 0.85rem;
+        max-width: 100%;
+        line-height: 1.6;
+    }
+
+    .fi {
+        font-size: 30px;
+    }
+
+    .seta-baixo {
+        font-size: 30px;
+        bottom: 15px;
+    }
+
+    .sobre-conteudo {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 0;
+    }
+
+    .sobre-info {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .sobre-paragrafo,
+    .sobre-paragrafo2 {
+        padding: 15px 20px;
+        font-size: 0.85rem;
+        line-height: 1.7;
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .titulo {
+        font-size: 42px;
+        text-align: center;
+        transform: none;
+        margin: 20px 0;
+    }
+
+    .titulos {
+        padding: 40px 5%;
+        min-height: auto;
+    }
+
+    .titulos .title {
+        font-size: 42px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .titulos-content {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .titulos-info {
+        width: 100%;
+        flex: none;
+        padding: 20px;
+    }
+
+    .titulos-info h3 {
+        font-size: 1.3rem;
+    }
+
+    .titulos-info ul {
+        font-size: 0.85rem;
+        line-height: 1.6;
+        padding-left: 20px;
+    }
+
+    .titulos-info p {
+        font-size: 0.85rem;
+        line-height: 1.6;
+    }
+
+    .titulos-info:hover {
+        transform: translateY(-5px);
+    }
+
+    .atletas {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        min-height: auto;
+        padding: 50px 6% 80px;
+    }
+
+    .atletas-texto {
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .atletas-texto.esquerda,
+    .atletas-texto.direita {
+        transform: none;
+        margin-left: 0;
+    }
+
+    .atletas-imagem {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .atletas-imagem img {
+        width: auto;
+        max-width: 80%;
+        max-height: 350px;
+    }
+
+    .atletas-texto h2 {
+        font-size: 42px;
+        margin: 10px 0;
+    }
+
+    .atletas-texto p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .atletas2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        min-height: auto;
+        padding: 50px 6% 80px;
+    }
+
+    .atletas2-texto {
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .atletas2-imagem {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .atletas2-imagem img {
+        width: auto;
+        max-width: 80%;
+        max-height: 350px;
+    }
+
+    .atletas2-texto h2 {
+        font-size: 42px;
+        margin: 10px 0;
+    }
+
+    .atletas2-texto p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .menu {
+        padding: 10px 5%;
+    }
+
+    .menu-links {
+        gap: 5px;
+    }
+
+    .menu-links a {
+        margin-right: 20px;
+    }
+
+    .atletas,
+    .atletas2 {
+        gap: 30px;
+        padding: 40px 5%;
+    }
+
+    .atletas-texto,
+    .atletas2-texto {
+        width: 40%;
+    }
+
+    .atletas-imagem img,
+    .atletas2-imagem img {
+        max-width: 280px;
+
+    }
+
+    .atletas-imagem,
+    .atletas2-imagem {
+        width: 40%;
+    }
+
+    .atletas-texto h2,
+    .atletas2-texto h2 {
+        font-size: 50px;
+    }
+
+    .atletas-texto p,
+    .atletas2-texto p {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+
+
